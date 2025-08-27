@@ -1,4 +1,4 @@
-EXEC silver.load_silver;
+
 
 /* =============================================================================================================================================================
                       WE ARE CLEANING AND INHANCING BRONZE LAYER ALL TABLES TO INSERT INTO SILVER LAYER THAT COULD USE FOR DATA ANALYSIS
@@ -221,6 +221,8 @@ BEGIN CATCH
 END CATCH
 
 END
+
+EXEC silver.load_silver;
 
 SELECT * FROM silver.crm_cust_info;
 SELECT * FROM silver.crm_prd_info;
