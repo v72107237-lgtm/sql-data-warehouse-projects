@@ -1,4 +1,4 @@
-# sql-data-warehouse-projects
+# Modern Datawarehouse – Product Catalogue Simulation (SQL Project)
 Building modern data warehouse with SQL server, including ETL Process and data modeling and analytics.
 This project describes comprehensive data warehousing and analytics solution, from building data warehouse to generating actionable insights. Designed as a portfolio project that highlight industry best practices in data engineering and data analytics.
 
